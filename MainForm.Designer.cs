@@ -65,10 +65,10 @@ namespace WindowsFormsApp1222
             // LinearCheckBox
             // 
             this.LinearCheckBox.AutoSize = true;
-            this.LinearCheckBox.Location = new System.Drawing.Point(74, 835);
-            this.LinearCheckBox.Margin = new System.Windows.Forms.Padding(6);
+            this.LinearCheckBox.Location = new System.Drawing.Point(56, 668);
+            this.LinearCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LinearCheckBox.Name = "LinearCheckBox";
-            this.LinearCheckBox.Size = new System.Drawing.Size(288, 29);
+            this.LinearCheckBox.Size = new System.Drawing.Size(223, 24);
             this.LinearCheckBox.TabIndex = 1;
             this.LinearCheckBox.Text = "Линейная интерполяция";
             this.LinearCheckBox.UseVisualStyleBackColor = true;
@@ -77,10 +77,10 @@ namespace WindowsFormsApp1222
             // PiecewiseCheckBox
             // 
             this.PiecewiseCheckBox.AutoSize = true;
-            this.PiecewiseCheckBox.Location = new System.Drawing.Point(74, 879);
-            this.PiecewiseCheckBox.Margin = new System.Windows.Forms.Padding(6);
+            this.PiecewiseCheckBox.Location = new System.Drawing.Point(56, 703);
+            this.PiecewiseCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PiecewiseCheckBox.Name = "PiecewiseCheckBox";
-            this.PiecewiseCheckBox.Size = new System.Drawing.Size(395, 29);
+            this.PiecewiseCheckBox.Size = new System.Drawing.Size(303, 24);
             this.PiecewiseCheckBox.TabIndex = 2;
             this.PiecewiseCheckBox.Text = "Кусочно-постоянная интерполяция";
             this.PiecewiseCheckBox.UseVisualStyleBackColor = true;
@@ -89,10 +89,10 @@ namespace WindowsFormsApp1222
             // RemovePointButton
             // 
             this.RemovePointButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.RemovePointButton.Location = new System.Drawing.Point(22, 610);
-            this.RemovePointButton.Margin = new System.Windows.Forms.Padding(6);
+            this.RemovePointButton.Location = new System.Drawing.Point(16, 488);
+            this.RemovePointButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RemovePointButton.Name = "RemovePointButton";
-            this.RemovePointButton.Size = new System.Drawing.Size(488, 88);
+            this.RemovePointButton.Size = new System.Drawing.Size(366, 70);
             this.RemovePointButton.TabIndex = 3;
             this.RemovePointButton.Text = "Удалить";
             this.RemovePointButton.UseVisualStyleBackColor = false;
@@ -105,8 +105,8 @@ namespace WindowsFormsApp1222
             chartArea1.Name = "ChartArea1";
             this.chart.ChartAreas.Add(chartArea1);
             this.chart.Enabled = false;
-            this.chart.Location = new System.Drawing.Point(566, 69);
-            this.chart.Margin = new System.Windows.Forms.Padding(6);
+            this.chart.Location = new System.Drawing.Point(424, 55);
+            this.chart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chart.Name = "chart";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
@@ -139,7 +139,7 @@ namespace WindowsFormsApp1222
             this.chart.Series.Add(series3);
             this.chart.Series.Add(series4);
             this.chart.Series.Add(series5);
-            this.chart.Size = new System.Drawing.Size(1038, 1121);
+            this.chart.Size = new System.Drawing.Size(778, 897);
             this.chart.TabIndex = 4;
             this.chart.Text = "chart";
             this.chart.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CreateNewPoint_MouseClick);
@@ -147,10 +147,9 @@ namespace WindowsFormsApp1222
             // CreateChart
             // 
             this.CreateChart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.CreateChart.Location = new System.Drawing.Point(76, 1088);
-            this.CreateChart.Margin = new System.Windows.Forms.Padding(4);
+            this.CreateChart.Location = new System.Drawing.Point(57, 870);
             this.CreateChart.Name = "CreateChart";
-            this.CreateChart.Size = new System.Drawing.Size(392, 100);
+            this.CreateChart.Size = new System.Drawing.Size(294, 80);
             this.CreateChart.TabIndex = 5;
             this.CreateChart.Text = "Создать декартову систему\r\n(очистить график)";
             this.CreateChart.UseVisualStyleBackColor = false;
@@ -158,20 +157,20 @@ namespace WindowsFormsApp1222
             // 
             // YSize
             // 
-            this.YSize.Location = new System.Drawing.Point(304, 1038);
-            this.YSize.Margin = new System.Windows.Forms.Padding(6);
+            this.YSize.Location = new System.Drawing.Point(228, 830);
+            this.YSize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.YSize.Name = "YSize";
-            this.YSize.Size = new System.Drawing.Size(160, 31);
+            this.YSize.Size = new System.Drawing.Size(121, 26);
             this.YSize.TabIndex = 6;
             this.YSize.Text = "60";
             this.YSize.TextChanged += new System.EventHandler(this.YSize_TextChanged);
             // 
             // XSize
             // 
-            this.XSize.Location = new System.Drawing.Point(76, 1038);
-            this.XSize.Margin = new System.Windows.Forms.Padding(6);
+            this.XSize.Location = new System.Drawing.Point(57, 830);
+            this.XSize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.XSize.Name = "XSize";
-            this.XSize.Size = new System.Drawing.Size(176, 31);
+            this.XSize.Size = new System.Drawing.Size(133, 26);
             this.XSize.TabIndex = 7;
             this.XSize.Text = "10";
             this.XSize.TextChanged += new System.EventHandler(this.XSize_TextChanged);
@@ -179,30 +178,30 @@ namespace WindowsFormsApp1222
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 1008);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(54, 806);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 25);
+            this.label1.Size = new System.Drawing.Size(67, 20);
             this.label1.TabIndex = 8;
             this.label1.Text = "Ширина";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(306, 1008);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(230, 806);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 25);
+            this.label2.Size = new System.Drawing.Size(66, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "Высота";
             // 
             // MNKCheckBox
             // 
             this.MNKCheckBox.AutoSize = true;
-            this.MNKCheckBox.Location = new System.Drawing.Point(74, 923);
-            this.MNKCheckBox.Margin = new System.Windows.Forms.Padding(6);
+            this.MNKCheckBox.Location = new System.Drawing.Point(56, 738);
+            this.MNKCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MNKCheckBox.Name = "MNKCheckBox";
-            this.MNKCheckBox.Size = new System.Drawing.Size(349, 29);
+            this.MNKCheckBox.Size = new System.Drawing.Size(270, 24);
             this.MNKCheckBox.TabIndex = 10;
             this.MNKCheckBox.Text = "Метод наименьших квадратов";
             this.MNKCheckBox.UseVisualStyleBackColor = true;
@@ -210,10 +209,10 @@ namespace WindowsFormsApp1222
             // 
             // Degree
             // 
-            this.Degree.Location = new System.Drawing.Point(76, 779);
-            this.Degree.Margin = new System.Windows.Forms.Padding(6);
+            this.Degree.Location = new System.Drawing.Point(57, 623);
+            this.Degree.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Degree.Name = "Degree";
-            this.Degree.Size = new System.Drawing.Size(386, 31);
+            this.Degree.Size = new System.Drawing.Size(290, 26);
             this.Degree.TabIndex = 11;
             this.Degree.Text = "1";
             this.Degree.TextChanged += new System.EventHandler(this.Degree_TextChanged);
@@ -221,10 +220,10 @@ namespace WindowsFormsApp1222
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(72, 748);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(54, 598);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 25);
+            this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 12;
             this.label3.Text = "Степень ";
             // 
@@ -236,12 +235,12 @@ namespace WindowsFormsApp1222
             this.Table.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.Table.Location = new System.Drawing.Point(24, 69);
-            this.Table.Margin = new System.Windows.Forms.Padding(6);
+            this.Table.Location = new System.Drawing.Point(18, 55);
+            this.Table.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Table.Name = "Table";
             this.Table.RowHeadersWidth = 82;
             this.Table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Table.Size = new System.Drawing.Size(486, 529);
+            this.Table.Size = new System.Drawing.Size(364, 423);
             this.Table.TabIndex = 14;
             this.Table.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.Table_CellEndEdit);
             this.Table.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.Table_CellValueChanged);
@@ -271,7 +270,8 @@ namespace WindowsFormsApp1222
             this.ВыходtoolStripMenuItem3});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2238, 40);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1443, 33);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -282,50 +282,50 @@ namespace WindowsFormsApp1222
             this.открытьToolStripMenuItem,
             this.сохранитьToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(91, 36);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(265, 44);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(200, 34);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(265, 44);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(200, 34);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
             this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // СправкаtoolStripMenuItem1
             // 
             this.СправкаtoolStripMenuItem1.Name = "СправкаtoolStripMenuItem1";
-            this.СправкаtoolStripMenuItem1.Size = new System.Drawing.Size(127, 36);
+            this.СправкаtoolStripMenuItem1.Size = new System.Drawing.Size(97, 29);
             this.СправкаtoolStripMenuItem1.Text = "Справка";
             this.СправкаtoolStripMenuItem1.Click += new System.EventHandler(this.СправкаtoolStripMenuItem1_Click);
             // 
             // О_ПрограммеtoolStripMenuItem2
             // 
             this.О_ПрограммеtoolStripMenuItem2.Name = "О_ПрограммеtoolStripMenuItem2";
-            this.О_ПрограммеtoolStripMenuItem2.Size = new System.Drawing.Size(184, 36);
+            this.О_ПрограммеtoolStripMenuItem2.Size = new System.Drawing.Size(141, 29);
             this.О_ПрограммеtoolStripMenuItem2.Text = "О программе";
             this.О_ПрограммеtoolStripMenuItem2.Click += new System.EventHandler(this.О_ПрограммеtoolStripMenuItem2_Click);
             // 
             // ВыходtoolStripMenuItem3
             // 
             this.ВыходtoolStripMenuItem3.Name = "ВыходtoolStripMenuItem3";
-            this.ВыходtoolStripMenuItem3.Size = new System.Drawing.Size(271, 36);
+            this.ВыходtoolStripMenuItem3.Size = new System.Drawing.Size(206, 29);
             this.ВыходtoolStripMenuItem3.Text = "Выход из программы";
             this.ВыходtoolStripMenuItem3.Click += new System.EventHandler(this.ВыходtoolStripMenuItem3_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(2238, 1277);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1443, 840);
             this.Controls.Add(this.Table);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Degree);
@@ -341,7 +341,7 @@ namespace WindowsFormsApp1222
             this.Controls.Add(this.LinearCheckBox);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Аппроксимация функции";
