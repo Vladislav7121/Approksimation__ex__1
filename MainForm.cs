@@ -75,7 +75,7 @@ namespace WindowsFormsApp1222
             width /= 10;
             height /= 10;
 
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 20; i++) {
                 chart.Series["ForSizeSet"].Points.AddXY(width * i, height * i);
             }
         }
