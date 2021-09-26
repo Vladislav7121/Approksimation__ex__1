@@ -23,7 +23,8 @@ namespace WindowsFormsApp1222
                 double y = arrY[i];
                 result.Add(x, y);
 
-                x += (arrX[i + 1] - arrX[i]) / 100;
+                x += (arrX[i + 1] - arrX[i]) / 10
+                    ;
                 y = arrY[i + 1];
                 result.Add(x, y);
 
