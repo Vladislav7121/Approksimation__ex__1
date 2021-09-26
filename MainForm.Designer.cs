@@ -116,7 +116,7 @@ namespace WindowsFormsApp1222
             series1.Name = "Points";
             series1.ShadowColor = System.Drawing.Color.Transparent;
             series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series2.Enabled = false;
             series2.Name = "MNK";
             series3.ChartArea = "ChartArea1";
