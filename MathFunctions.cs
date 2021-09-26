@@ -45,16 +45,16 @@ namespace WindowsFormsApp1222
             double[] arrY = data.Values.ToArray();
             
             SortedList<double, double> result = new SortedList<double, double>();
-            double a, b, HalfX, y;
+            double a, j, HalfX, y;
 
             result.Add(arrX[0], arrY[0]);
 
             for (int i = 1; i < arrX.Length; i++)
             {
                 a = (arrY[i] - arrY[i - 1]) / (arrX[i] - arrX[i - 1]);
-                b = (arrY[i] - a * arrX[i]);
+                j = (arrY[i] - a * arrX[i]);
                 HalfX = (arrX[i] + arrX[i - 1]) / 2;
-                y = a * HalfX + b;
+                y = a * HalfX + j;
                 result.Add(HalfX, y);
 
                 result.Add(arrX[i], arrY[i]);
