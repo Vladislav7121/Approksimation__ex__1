@@ -111,7 +111,7 @@ namespace WindowsFormsApp1222
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
             series1.Color = System.Drawing.Color.Red;
-            series1.LabelForeColor = System.Drawing.Color.Red;
+            series1.LabelForeColor = System.Drawing.Color.Orange;
             series1.MarkerBorderColor = System.Drawing.Color.Red;
             series1.Name = "Points";
             series1.ShadowColor = System.Drawing.Color.Transparent;
